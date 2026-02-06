@@ -1,0 +1,107 @@
+:root{
+    --bez: #F6F0D7;
+    --svetla: #C5D89D;
+    --sredina: #9CAB84;
+    --tamna: #89986D;
+}
+body{
+    background-color: var(--bez);
+    margin: 0;
+    padding: 0;
+}
+#pozivnica{
+    width: 60%;
+    margin: 0 auto;
+}
+#navigacija{
+    background-color: var(--tamna);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#navigacija a{
+    color: var(--bez);
+    text-decoration: none;
+    padding: 10px;
+}
+#navigacija a:hover{
+    transform: translateY(-2px);
+}
+.balon1{
+    width: 400px;
+    position: absolute;
+    z-index: -1;
+}
+#tekst-pozivnice{
+    padding:10px;
+    background-color: var(--sredina);
+    margin-top: 25px;
+}
+#tekst-pozivnice p {
+    font-family: "Condiment";
+    font-size: 50px;
+    text-align: center;
+}
+.org-naslov {
+    text-align: center;
+    color: var(--tamna);
+    font-family: cursive;
+}
+#kartice {
+    display: flex;
+    justify-content: space-between;
+}
+#kartice div {
+    background-color: var(--tamna);
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#kartice div:hover{
+    transform: translateY(-2px);
+}
+#kartice div img {
+    width: 100%;
+}
+#kartice div p {
+    margin-top: auto;
+}
+#forma h1{
+    text-align: center;
+    color: var(--tamna);
+    font-family: cursive;
+}
+form {
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: var(--tamna);
+    color: var(--svetla);
+    font-size: 20px;
+}
+form label {
+    font-size: 25px;
+}
+form input{
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+}
+form textarea{
+    width: 300px;
+}
+form button{
+    padding: 20px 30px;
+    margin-top: 10px;
+    background-color: var(--svetla);
+    border: none;
+    border-radius: 10px;
+}
+form button:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+}
